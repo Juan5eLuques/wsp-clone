@@ -1,0 +1,140 @@
+.message-input-container {
+  padding: 8px 16px 12px;
+  position: relative;
+  z-index: 1;
+}
+
+.message-input {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  background-color: #242626;
+  gap: 8px;
+  border-radius: 30px;
+}
+
+.input-icon-btn {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: #8696a0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 0;
+}
+
+.input-icon-btn:hover {
+  color: #e9edef;
+}
+
+.input-icon-btn:focus {
+  outline: none;
+}
+
+.input-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background-color: #242626;
+  border-radius: 24px;
+  padding: 6px 12px;
+  gap: 8px;
+}
+
+.emoji-btn {
+  border: none;
+  background: transparent;
+  color: #8696a0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.emoji-btn:hover {
+  color: #e9edef;
+}
+
+.emoji-btn:focus {
+  outline: none;
+}
+
+.input-field {
+  flex: 1;
+  padding: 4px 0;
+  border: none;
+  background: transparent;
+  color: #e9edef;
+  font-size: 15px;
+  outline: none;
+}
+
+.input-field::placeholder {
+  color: #8696a0;
+}
+
+.send-button {
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 50%;
+  background-color: #00a884;
+  color: #111b21;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background-color 0.2s;
+}
+
+.send-button:hover {
+  background-color: #06cf9c;
+}
+
+.send-button:focus {
+  outline: none;
+}
+
+.mic-button {
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: #8696a0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.mic-button:hover {
+  color: #e9edef;
+}
+
+.mic-button:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .message-input-container {
+    padding: 8px 8px 12px;
+  }
+
+  .input-wrapper {
+    padding: 6px 10px;
+  }
+
+  .input-field {
+    font-size: 14px;
+  }
+}
